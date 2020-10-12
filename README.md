@@ -1,24 +1,19 @@
 
-Caclit Node.js Workflow
+Migrate Calcit Snapshort
 ----
+
+> CLI tool for migrating outdate `calcit.cirru` file.
+
+Due to changes in https://github.com/Cirru/calcit-editor/pull/94 , files need to migrate in order to reduce file size.
 
 ### Usage
 
-You need Node.js and JVM to run this app:
+[![npm](https://img.shields.io/npm/v/@cirru/migrate-calcit-snapshot)](https://www.npmjs.com/package/@cirru/migrate-calcit-snapshot)
 
 ```bash
-yarn
-yarn watch
+yarn add @cirru/migrate-calcit-snapshot
 
-# meanwhile
-node target/server.js
-```
-
-To start the editor, use:
-
-```bash
-npm i -g calcit-editor
-calcit-editor # or ce for short
+migrate-calcit-snapshot
 ```
 
 ### License
