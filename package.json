@@ -1,6 +1,6 @@
 {
   "name": "@cirru/migrate-calcit-snapshot",
-  "version": "0.1.0-a1",
+  "version": "0.1.0-a2",
   "scripts": {
     "compile": "yarn shadow-cljs compile app",
     "release": "yarn shadow-cljs release app",

@@ -292,11 +292,11 @@
                                 :data $ {}
                                   |T $ {} (:type :leaf) (:by |yeKFqj7rX) (:at 1602475690869) (:text |contains?)
                                   |j $ {} (:type :leaf) (:by |yeKFqj7rX) (:at 1602475691577) (:text |node)
-                                  |r $ {} (:type :leaf) (:by |yeKFqj7rX) (:at 1602475724047) (:text |:timestamp)
+                                  |r $ {} (:type :leaf) (:by |yeKFqj7rX) (:at 1602476807202) (:text |:time)
                               |r $ {} (:type :expr) (:by |yeKFqj7rX) (:at 1602475695881)
                                 :data $ {}
                                   |T $ {} (:type :leaf) (:by |yeKFqj7rX) (:at 1602475698973) (:text |js/console.warn)
-                                  |j $ {} (:type :leaf) (:by |yeKFqj7rX) (:at 1602475726307) (:text "|\"find outdated field timestamp")
+                                  |j $ {} (:type :leaf) (:by |yeKFqj7rX) (:at 1602476810820) (:text "|\"find outdated field time")
                   |x $ {} (:type :expr) (:by |yeKFqj7rX) (:at 1602475439649)
                     :data $ {}
                       |T $ {} (:type :leaf) (:by |yeKFqj7rX) (:at 1602475444674) (:text |throw)

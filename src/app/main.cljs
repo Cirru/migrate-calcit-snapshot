@@ -7,7 +7,7 @@
     :expr
       (do
        (if (contains? node :author) (js/console.warn "find outdated field author"))
-       (if (contains? node :timestamp) (js/console.warn "find outdated field timestamp"))
+       (if (contains? node :time) (js/console.warn "find outdated field time"))
        (-> node
            (dissoc :id)
            (update
