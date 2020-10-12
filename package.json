@@ -1,14 +1,15 @@
 {
-  "name": "calcit-nodejs-workflow",
-  "version": "0.1.0",
+  "name": "@cirru/migrate-calcit-snapshot",
+  "version": "0.1.0-a2",
   "scripts": {
-    "deploy": "clj -A:release",
-    "m2": "clj -A:release install",
     "compile": "yarn shadow-cljs compile app",
+    "release": "yarn shadow-cljs release app",
     "watch": "yarn shadow-cljs watch app"
   },
-  "main": "index.js",
-  "repository": "git@github.com:mvc-works/calcit-nodejs-workflow.git",
+  "bin": {
+    "migrate-calcit-snapshot": "dist/migrate-calcit-snapshot.js"
+  },
+  "repository": "git@github.com:Cirru/migrate-calcit-snapshot.git",
   "author": "jiyinyiyong <jiyinyiyong@gmail.com>",
   "license": "MIT",
   "devDependencies": {
